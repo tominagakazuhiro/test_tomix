@@ -10,6 +10,8 @@ class FizzBuzz {
                 System.out.println("Fizz");
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
+            } else if (i % 7 == 0) {
+                System.out.println("7uzz");
             } else {
                 System.out.println(i);
             }
